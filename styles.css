@@ -1,0 +1,46 @@
+/* The Guard Overlay */
+#yt-focus-guard {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0f0f0f;
+    /* YouTube Dark Mode bg */
+    z-index: 999999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+#yt-focus-guard h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 300;
+}
+
+#yt-focus-input {
+    width: 600px;
+    padding: 20px;
+    font-size: 1.5rem;
+    border: 2px solid #333;
+    background: #1f1f1f;
+    color: white;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+#yt-focus-input:focus {
+    border-color: #3ea6ff;
+}
+
+#yt-focus-status {
+    margin-top: 20px;
+    color: #aaa;
+    font-size: 1rem;
+    min-height: 24px;
+}
